@@ -63,9 +63,9 @@ function Footer() {
           <p className="p-0 m-0">Thank You fro Scroling</p>
         </div>
       </div>
-      <div ref={footerRef} className="bg-black text-white pt-20">
+      <div ref={footerRef} className="bg-black text-white pt-8">
         <div className="border-b-2">
-          <div className="w-[90%] mx-auto my-16">
+          <div className="w-[90%] mx-auto mb-16">
             <div className="mb-10">
               <p className="text-center text-6xl mb-10 footer-h">Logers</p>
               <p className="text-center text-3xl">

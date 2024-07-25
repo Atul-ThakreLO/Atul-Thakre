@@ -54,7 +54,7 @@ function FollowMe() {
                 <a
                   href="https://x.com/AtulThakre_Lg"
                   target="_blank"
-                  className="px-4 py-1 rounded-full inline-block  bg-black text-white hover:scale-110"
+                  className="px-4 py-1 rounded-full inline-block  bg-black text-white hover:scale-110 hover:bg-transparent hover:border-2 hover:text-black duration-300 border-[#ca2655]"
                 >
                   See Profile
                 </a>
@@ -66,7 +66,7 @@ function FollowMe() {
               <div className="profile-pic h-16 w-16 ml-3 bg-orange-600 rounded-full -mt-8 overflow-hidden">
                 <img
                   className="h-full w-full object-cover"
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEUKZsL///8AZME7eMgAWb7i6fUAXL/Az+oAYsFjj9B1m9QAYMBGgswAVr0AXb8AWr5ZjdBWh80ZbMTO3PCzx+drl9T2+f2Ssd7G1u0dbsXF1e3w9fs2dsfl7ffV4fIocsaApNmowOSMrNyrw+Wbt+AAUryFqNr2AL+0AAADz0lEQVR4nO3ca1+qMACAcZiA5ATMW+a98vT9P+LROkXiNruMLXae/2v1xyOy6QCjCAAAAAAAAAAAAAAAAAAAALBGnPjeiPbkZSJ36/W4qmSQlbIYTTfxyXx72CXBNYpkv4o/mAwDayx7m7hhWoWUWM2afUebcTiJ5UAReDweo1AS5VAZeNyLgXxQhZxrCo/Hou+NsyJ70AXGcS+EnSgifWC8SHxvngXyzlAYhzCeJqmp8FH63r4fE8IUGC+6P9YI3VTxatP9AzFXz/bvCt8b+GNyT2HX5aov3UEVip4xMO3+SBNlxsJp6Xv7fq5amApn3Z/xzQfivAzgW1tUrPSFDwF8SM1zfiDLisUk5KPwREjN5/QpgKnilbhXrmP0uz/bvxPR9jLwEFDgacm7+Ut/c5v53ijLSvHw4WhMB0Xue4usE2U1vOtv03Qy3e+S8PpeCJlVSZKVgcyCAIDfT+SyrI6Ok0+As4+QVbGbHabLxWTRf7qb7YrMa6XIdZpbpX3k2QPzSuyXjV8rk8dd4i1SjG90bs+3SQx1D7yvH5gnt0vlr830ufK06mNYMW2cl8nUm370/laIYmQ4W3covSwaGAob68FZ/1phudOuiLyYDwoPu9FeoSiejX0nE+H+Z4u1QiHNO/DVfOh8hdJWYT42LLx+NHN9XtlSoVxrL8tpGjheILFTqFmvU7txO6RaKZT5Jz+ir9xeiWSl8M9nBpnayunVqzYKh9eniXNTl8vpVvbhFwOP74nDadFG4RdGmbeXdriibqPwG2budqKnQofXQHgqjIfOhlNfhX1nX958FcaZq53ordDZOXRvhVNXX8DtF87TNP3EDLlyNZpaLlwOxkWSJIWYXX20q4vIrRY+jat/S4tCVmPjBWXuDkSLhave2V02ojDeBxAfHK1n2CvcZs1vYhcXQJxZOhpqrBWqvofpr7fSPOE3F84vTgKcXvze9AxHvy9sFY6U40Zleo6jMxmWChfqHWK8n8PRdGGpULe4lBiWqHZdKtzqRg3TkxwtudkpfNbN3tKwSNWpQu0hJQyrVF0q3GgHftPNcV0qXOp/sBdhFBou6jcMpl0qNNxrmlz8XUMnC/fBFw7067uGG40ptITCGoVqFLaPwhqFahS2j8IahWoUto/CGoVqFLaPwhqFahS2j8IahWoUto/CGoVqFLaPwhqFahS2j8IahWoUto/CGoVqFLaPwlqAhc1/4NHfx2Qq9H7lXhT1dNaNf1HqDc/djt4YrroXa+3rtx1Wb4PWlQfq/zPrWy8PAAAAAAAAAAAAAAAAAAAA4D/0F5lQSZ+5G/qbAAAAAElFTkSuQmCC"
+                  src="data:image/png;base64,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"
                   alt="imsdas"
                 />
               </div>
@@ -78,7 +78,7 @@ function FollowMe() {
                 <a
                   href="https://www.linkedin.com/in/atul-thakre-logers/"
                   target="_blank"
-                  className="px-4 py-1 rounded-full inline-block bg-black text-white hover:scale-110"
+                  className="px-4 py-1 rounded-full inline-block bg-black text-white hover:scale-110 hover:bg-transparent hover:border-2 hover:text-black duration-300 border-[#ca2655]"
                 >
                   See Profile
                 </a>
@@ -102,7 +102,7 @@ function FollowMe() {
                 <a
                   href="https://github.com/Atul-ThakreLO"
                   target="_blank"
-                  className="px-4 py-1 rounded-full inline-block  bg-black text-white hover:scale-110"
+                  className="px-4 py-1 rounded-full inline-block  bg-black text-white hover:scale-110 hover:bg-transparent hover:border-2 hover:text-black duration-300 border-[#ca2655]"
                 >
                   See Profile
                 </a>
