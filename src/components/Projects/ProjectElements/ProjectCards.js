@@ -70,7 +70,7 @@ function ProjectCards(props) {
   return (
     <div className="w-full py-8 bg-zinc-100" ref={outerContainer}>
       <div ref={container}>
-        <div className="w-[90%] mx-auto pt-24 pl-10" ref={ele}>
+        <div className="w-[90%] mx-auto pt-10 pl-10" ref={ele}>
           <div className="flex flex-nowrap gap-52">
             <div className="w-[100vw] hidden md:flex justify-center items-center">
               <p className="px-96 text-9xl flex gap-10">
@@ -104,7 +104,7 @@ function ProjectCards(props) {
                   <div
                     className=" w-[75vw] sm:w-[90vw] lg:w-[80vw] md:w-[67vw] md:h-[60vh] md:flex md:items-center md:justify-center cursor-pointer"
                     onClick={() => {
-                      props.onDescription("100vh");
+                      props.onDescription("90vh");
                       props.onFilterDiscri(card.ProjectName);
                     }}
                     onMouseOver={handleOver}

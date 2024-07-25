@@ -41,7 +41,7 @@ function Cursor(props) {
   }, [props.hoverChanges]);
   
   return (
-    <div className="z-10" ref={OuterCircle} style={cursorStyles}>
+    <div className="z-10 hidden lg:block" ref={OuterCircle} style={cursorStyles}>
       <div
         ref={circle}
         className="text-[white] flex items-center justify-center text-lg rounded-full h-[100%] w-[100%]"

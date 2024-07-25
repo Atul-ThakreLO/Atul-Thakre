@@ -98,7 +98,7 @@ function ProgressCard(props) {
                 </div>
               </div>
               <div className="px-4 py-3 flex justify-between">
-                <p className="w-1/2 md:w-1/2 lg:w-auto">Give Endorsement To My Skills</p>
+                <p className="w-[50%] lg:w-auto">Give Endorsement To My Skills</p>
                 <a
                   href="https://www.linkedin.com/in/atul-thakre-logers/"
                   target="_blank"
@@ -110,7 +110,7 @@ function ProgressCard(props) {
                     width="16"
                     height="25"
                     fill="currentColor"
-                    className="inline-block mx-4 md:mx-1 lg:mx-4 mb-1"
+                    className="inline-block ml-1 sm:mx-2 md:mx-1 lg:mx-4 mb-1"
                     viewBox="0 0 16 20"
                   >
                     <path

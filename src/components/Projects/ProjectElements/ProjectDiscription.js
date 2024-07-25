@@ -57,17 +57,17 @@ function ProjectDiscription({ toggleHeight, onDescription, data }) {
             </button>
           </div>
         </div>
-        <div className="w-[100%] mx-auto pt-20">
+        <div className="w-[100%] mx-auto pt-16">
           <p className="w-max mx-auto text-5xl">About Project</p>
-          <div className="px-3 md:px-20 lg:px-36 pt-10 text-xl relative h-full">
+          <div className="px-3 pr-0 md:px-20 lg:px-36 pt-4 text-xl relative h-full">
             <div
               ref={Name}
-              className="w-max px-10 py-4 mb-6 rounded-md text-4xl bg-gradient-to-r to-[#ca2655] from-[#71967d]"
+              className="w-max px-10 py-4 mb-2 rounded-md text-4xl bg-gradient-to-r to-[#ca2655] from-[#71967d]"
             >
               <h1 className="font-bold">{data[0] ? data[0].Name : ""}</h1>
             </div>
             <div className="scroll overflow-y-scroll h-[65vh]">
-              <p ref={discription} className=" text-center mb-4 px-10">
+              <p ref={discription} className=" text-center mb-4 px-1 sm:px-10">
                 {data[0] ? data[0].discription : ""}
               </p>
               <div className="mt-10">

@@ -119,7 +119,7 @@ function Landing(props) {
             <div className=" text-5xl sm:text-7xl md:text-8xl">Logers</div>
           </div>
           <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-          <div className="flex gap-2 mt-20 h-14 sm:h-20 text-4xl sm:text-6xl md:text-7xl overflow-hidden skills text-anime">
+          <div className="flex gap-2 mt-20 h-12 sm:h-20 text-3xl sm:text-6xl md:text-7xl overflow-hidden skills text-anime">
             <span className="font-[350]">Proficient In</span>
             <span className="overflow-hidden border-4 border-[#71967d] px-4 skill-slide rounded-md">
               <ul ref={ulHeightRef}>
