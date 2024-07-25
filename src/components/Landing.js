@@ -65,7 +65,7 @@ function Landing(props) {
       duration: 1.66,
       repeat: -1,
       ease: "elastic.out(1,0.3)",
-      delay: 2.4,
+      delay: 3.15,
     });
   });
 
