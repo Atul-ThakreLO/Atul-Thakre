@@ -51,16 +51,16 @@ function Footer() {
           className="flex gap-10 p-0 m-0 text-4xl flex-nowrap whitespace-nowrap relative -left-[50%] "
           ref={scrollingText}
         >
-          <p className="p-0 m-0">Thank You fro Scroling</p>
-          <p className="p-0 m-0">Thank You fro Scroling</p>
-          <p className="p-0 m-0">Thank You fro Scroling</p>
-          <p className="p-0 m-0">Thank You fro Scroling</p>
-          <p className="p-0 m-0">Thank You fro Scroling</p>
-          <p className="p-0 m-0">Thank You fro Scroling</p>
-          <p className="p-0 m-0">Thank You fro Scroling</p>
-          <p className="p-0 m-0">Thank You fro Scroling</p>
-          <p className="p-0 m-0">Thank You fro Scroling</p>
-          <p className="p-0 m-0">Thank You fro Scroling</p>
+          <p className="p-0 m-0">Thank You for Scroling</p>
+          <p className="p-0 m-0">Thank You for Scroling</p>
+          <p className="p-0 m-0">Thank You for Scroling</p>
+          <p className="p-0 m-0">Thank You for Scroling</p>
+          <p className="p-0 m-0">Thank You for Scroling</p>
+          <p className="p-0 m-0">Thank You for Scroling</p>
+          <p className="p-0 m-0">Thank You for Scroling</p>
+          <p className="p-0 m-0">Thank You for Scroling</p>
+          <p className="p-0 m-0">Thank You for Scroling</p>
+          <p className="p-0 m-0">Thank You for Scroling</p>
         </div>
       </div>
       <div ref={footerRef} className="bg-black text-white pt-8">
