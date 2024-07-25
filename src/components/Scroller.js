@@ -26,14 +26,13 @@ function Scroller() {
   }, []);
 
   return (
-    <div className="mix-blend-difference fixed bottom-10 right-5 z-40">
-      <div className="progress h-[70px] w-[70px] top-6 right-6 absolute rounded-full overflow-hidden bg-white">
-        <div className="svg absolute top-1/3 left-1/3">
+    <div className="mix-blend-difference fixed bottom-5 sm:bottom-10 right-5 z-40">
+      <div className="progress h-[40px] w-[40px] sm:h-[70px] sm:w-[70px] top-[1.15rem] left-5 sm:top-6 sm:right-6 absolute rounded-full overflow-hidden bg-white">
+        <div className="svg absolute top-[0.6rem] left-[0.6rem]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            height="25"
             fill="currentColor"
+            className="w-5 h-50 "
             viewBox="0 0 16 16"
             style={{
               transitionDuration: "0.3s",
@@ -52,12 +51,10 @@ function Scroller() {
         ></div>
       </div>
       <svg
-        width="120"
-        height="120"
         viewBox="0 0 175 175"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="pb-1 pr-1"
+        className="pb-1 pr-1 w-20 h-20"
         style={{
           transform: `rotate(${rotate}turn)`,
           transformOrigin: "50% 50%",
