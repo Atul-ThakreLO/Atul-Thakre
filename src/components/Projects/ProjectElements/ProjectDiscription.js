@@ -36,7 +36,7 @@ function ProjectDiscription({ toggleHeight, onDescription, data }) {
   return (
     <div className="w-full fixed bottom-0">
       <div
-        className="w-[95%] mx-auto duration-700 bg-zinc-300 rounded-t-[50px]"
+        className="w-[100%] sm:w-[95%] mx-auto duration-700 bg-zinc-300 rounded-t-[50px]"
         style={{ height: toggleHeight }}
       >
         <div className="fixed w-full">
@@ -48,25 +48,17 @@ function ProjectDiscription({ toggleHeight, onDescription, data }) {
           >
             <div className="w-full h-1 rounded-full bg-[#ca2655]"></div>
           </div>
-          <div className="w-full relative">
-            <button
-              disabled
-              className="absolute right-[10%] -top-5 px-10 py-2 border-[#ca2655] border-2 hover:bg-[#71967d] hover:border-[#71967d] duration-300 rounded-full cursor-not-allowed"
-            >
-              Preview
-            </button>
-          </div>
         </div>
-        <div className="w-[100%] mx-auto pt-16">
-          <p className="w-max mx-auto text-5xl">About Project</p>
+        <div className="w-[100%] mx-auto pt-8">
+          <p className="w-max mx-auto text-3xl sm:text-4xl md:text-5xl pt-0 sm:pt-4">About Project</p>
           <div className="px-3 pr-0 md:px-20 lg:px-36 pt-4 text-xl relative h-full">
             <div
               ref={Name}
-              className="w-max px-10 py-4 mb-2 rounded-md text-4xl bg-gradient-to-r to-[#ca2655] from-[#71967d]"
+              className="w-max px-6 sm:px-8 md:px-10 py-1 sm:py-2 md:py-4 mb-1 sm:mb-3 rounded-md text-2xl sm:text-3xl md:text-4xl bg-gradient-to-r to-[#ca2655] from-[#71967d]"
             >
               <h1 className="font-bold">{data[0] ? data[0].Name : ""}</h1>
             </div>
-            <div className="scroll overflow-y-scroll h-[65vh]">
+            <div className="scroll overflow-y-scroll h-[65vh] pb-32">
               <p ref={discription} className=" text-center mb-4 px-1 sm:px-10">
                 {data[0] ? data[0].discription : ""}
               </p>

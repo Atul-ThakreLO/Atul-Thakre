@@ -12,3 +12,10 @@
   background-color: rgb(167, 167, 167);
   border-radius: 10px;
 }
+
+@media screen and (max-width: 668px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+  }
+}
