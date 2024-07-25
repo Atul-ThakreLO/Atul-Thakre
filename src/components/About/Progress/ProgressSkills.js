@@ -47,7 +47,7 @@ function ProgressSkills(props) {
 
   return (
     <div className="bg-zinc-50 w-full pb-10 mb-10 shadow-lg">
-      <div className="w-[90%] mx-auto text-black py-10 px-4 sm:px-10 md:px-4">
+      <div className="w-[90%] mx-auto text-black py-10 px-0 sm:px-10 md:px-4">
         <div className="w-max mx-auto mb-20 mt-10 text-center font-[600]">
           <div className="overflow-hidden mb-4">
             <p className="headingL text-6xl sm:text-8xl mb-4">My Learning</p>

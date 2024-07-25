@@ -28,7 +28,7 @@ const discriptionData = [
       vidSrc: "https://res.cloudinary.com/dok1hsojb/video/upload/v1721875468/peed5gnqzzjhg11zvfej.mp4"
   },
   {
-    Name: "Tic_Tac_Toe",
+    Name: "Tic_Tac-Toe",
     discription:
       "Developed a classic Tic-Tac-Toe game as a foundational project to solidify core programming concepts. This endeavor allowed for hands-on application of logic, problem-solving, and user interface design. By implementing game mechanics, turn management, win conditions, and a visually appealing interface, I gained valuable experience in building interactive applications. This project served as a catalyst for exploring more complex game development and understanding the fundamentals of software engineering.",
     tech: ["HTML", "CSS", "JS"],
